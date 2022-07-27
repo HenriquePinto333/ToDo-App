@@ -1,0 +1,56 @@
+
+*{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8C92AC;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    font-size : 40px;
+    font-weight: regular;
+    opacity: 0.7;
+    color: whitesmoke;
+    margin:125px;
+}
+
+form{
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+}
+
+.todoInput{
+    border: none;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.1);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.todoInput::placeholder{
+    color: #b5b5b5;
+}
+
+.todos{
+    background-color: #8C92AC;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.todos li{
+    font-weight: 400;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+  
